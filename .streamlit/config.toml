@@ -1,0 +1,14 @@
+ [theme]
+
+ #colour used for interactive elements
+ primarycolor = "#d33682"
+
+
+# for the main content area
+backgroundcolor = "#002b36"
+
+# for the sidebar and most interactive widgets
+secondarybackgroundcolor = "#586e75"
+
+#for almost all text
+textcolor = "#fff"
