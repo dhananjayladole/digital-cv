@@ -99,13 +99,13 @@ st.subheader("🎯 Skills")
 st.write("---")
 st.write(
     """
-- **Data Analysis & Reporting:** Power BI, Excel, Google Sheets
-- **Statistical & Analytical Models:** Python, Statistical Analysis
-- **Data Visualization:** Tableau, PowerBi , Google Studio
-- **Database Management:** SQL (Complex Queries, Data Extraction)
-- **Business Analysis:** Customer Growth Analytics, Key Lead Indicators, Issue Diagnosis
-- **Technical Proficiency:** Dashboard Development, Reporting System Maintenance
-- **Soft Skills:** Quick Learner, Team Player, Effective Communication
+- 📈 **Data Analysis & Reporting:** Power BI, Excel, Google Sheets
+- 📊 **Statistical & Analytical Models:** Python, Statistical Analysis
+- 💹 **Data Visualization:** Tableau, PowerBi , Google Studio
+- 👨🏻‍💻 **Database Management:** SQL (Complex Queries, Data Extraction)
+- 📊 **Business Analysis:** Customer Growth Analytics, Key Lead Indicators, Issue Diagnosis
+- 🧑🏻‍💻 **Technical Proficiency:** Dashboard Development, Reporting System Maintenance
+- ✨ **Soft Skills:** Quick Learner, Team Player, Effective Communication
 """
 )
 
