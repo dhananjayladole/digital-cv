@@ -98,11 +98,9 @@ st.write('\n')
 st.subheader("🧑🏻‍🎓 Qulifications")
 st.write(
     """
-- **Master's** : 🎓 M.B.A (Business Analytics)                      Aug 2022 - Jun2024
-                Sinhgad Institute Of management (SPPU University)
-- **Degree**   : 🎓 Bachelor Of Enginnering                         Aug 2017 - Jun 2022
-                SHVPM COET Amravati (SGBAU University)
-"""
+- **Master's** : 🎓 M.B.A (Business Analytics), Sinhgad Institute Of management (SPPU University) Aug 2022 - Jun2024
+- **Degree**   : 🎓 Bachelor Of Enginnering, SHVPM COET Amravati (SGBAU University) Aug 2017 - Jun 2022
+    """
 )
 
 
