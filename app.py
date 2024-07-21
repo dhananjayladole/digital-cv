@@ -143,12 +143,44 @@ for project, link in PROJECTS.items():
     st.write(f"{project}")
 
 # --- Send Message Box ---
+#st.write("\n")
+#st.subheader("Any Message / Queries")
+
+#message = st.text_input("Type your message / queries here:")
+#if st.button("Send"):
+ #   if message:
+  #      st.success("Sent Successfully!! Thank You....😊")
+   # else:
+    #    st.warning("Please type a message before sending.")
+
+# --- Send Message Box ---
 st.write("\n")
 st.subheader("Any Message / Queries")
 
 message = st.text_input("Type your message / queries here:")
 if st.button("Send"):
     if message:
-        st.success("Sent Successfully!! Thank You....😊")
+        # Send email using smtplib
+        sender_email = "your-email@gmail.com"  # Replace with your email address
+        receiver_email = "dladole7@gmail.com"  # Replace with your email address
+        password = "your-password"  # Replace with your email password
+
+        msg = MIMEMultipart()
+        msg['From'] = sender_email
+        msg['To'] = receiver_email
+        msg['Subject'] = "Message from Streamlit App"
+
+        body = message
+        msg.attach(MIMEText(body, 'plain'))
+
+        try:
+            with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
+                server.login(sender_email, password)
+                server.sendmail(sender_email, receiver_email, msg.as_string())
+                st.success("Message sent successfully!")
+        except Exception as e:
+            st.error(f"Error sending message: {e}")
     else:
         st.warning("Please type a message before sending.")
+Explanation:
+
