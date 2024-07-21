@@ -96,12 +96,10 @@ st.write(
 
 st.write('\n')
 st.subheader("🧑🏻‍🎓 Qulifications")
-st.write(
-    """
-- **Master's** : 🎓 M.B.A (Business Analytics), Sinhgad Institute Of management (SPPU University) Aug 2022 - Jun2024
-- **Degree**   : 🎓 Bachelor Of Enginnering, SHVPM COET Amravati (SGBAU University) Aug 2017 - Jun 2022
-    """
-)
+st.write("---")
+st.write("**Master's**   : M.B.A (Business Analytics), Sinhgad Institute Of management (SPPU University) Aug 2022 - Jun 2024")
+st.write("**Bachelor's** : Bachelor Of Engineering (Mechanical), SHVPM COET Amravati Aug 2017 - Jun 2022")
+
 
 
 # --- SKILLS ---
