@@ -142,8 +142,7 @@ st.write(
     """
 - Utilized Excel and Power BI to analyse workshop performance metrics, identify trends, and generate reports for management review, enabling data-driven decision making and process improvemen
 -  Directed all aspects of workshop operations, including staff supervision, resource allocation, and customer service, ensuring optimal performance and customer satisfaction
--  Iterations on the redesigned data model resulted in 22% better predictions. In order to find out how to boost sales, 
-
+-  Iterations on the redesigned data model resulted in 22% better predictions. In order to find out how to boost sales,
 """
 )
 
