@@ -182,5 +182,3 @@ if st.button("Send"):
             st.error(f"Error sending message: {e}")
     else:
         st.warning("Please type a message before sending.")
-Explanation:
-
