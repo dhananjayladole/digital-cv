@@ -90,8 +90,7 @@ st.write(
 st.write('\n')
 st.subheader("🧑🏻‍🎓 Qualifications")
 st.write("---")
-st.write("**Master's**   : M.B.A (Business Analytics),                        Aug 2022 - Jun 2024
-                           Sinhgad Institute Of management (SPPU University)")
+st.write("**Master's**   : M.B.A (Business Analytics), Sinhgad Institute Of management (SPPU University) Aug 2022 - Jun 2024")
 st.write("**Bachelor's** : Bachelor Of Engineering (Mechanical), SHVPM COET Amravati Aug 2017 - Jun 2022")
 
 # --- SKILLS ---
@@ -131,9 +130,9 @@ st.write("**🌟 🧑‍💼 Workshop Manager | Aspa bandson PVT.LTD**")
 st.write("02/2021 - 01/2022")
 st.write(
     """
-- Utilized Excel and Power BI to analyze workshop performance metrics, identify trends, and generate reports for management review, enabling data-driven decision making and process improvement
-- Directed all aspects of workshop operations, including staff supervision, resource allocation, and customer service, ensuring optimal performance and customer satisfaction
-- Iterations on the redesigned data model resulted in 22% better predictions.
+- ✔️ Utilized Excel and Power BI to analyze workshop performance metrics, identify trends, and generate reports for management review, enabling data-driven decision making and process improvement
+- ✔️ Directed all aspects of workshop operations, including staff supervision, resource allocation, and customer service, ensuring optimal performance and customer satisfaction
+- ✔️ Iterations on the redesigned data model resulted in 22% better predictions.
 """
 )
 
