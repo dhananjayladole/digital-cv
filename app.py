@@ -16,7 +16,7 @@ NAME = "Dhananjay Ladole"
 DESCRIPTION = """
 MBA-Business Analyst / Data Analyst
 """
-EMAIL = "dladole7@gmail.com" | ✆ 9307498464
+EMAIL = "dladole7@gmail.com"
 Hire = "Hire Me Now!!!"
 SOCIAL_MEDIA = {
     "✨LinkedIn": "https://www.linkedin.com/in/dhananjay-ladole-b59793215/",
