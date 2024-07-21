@@ -90,7 +90,8 @@ st.write(
 st.write('\n')
 st.subheader("🧑🏻‍🎓 Qualifications")
 st.write("---")
-st.write("**Master's**   : M.B.A (Business Analytics), Sinhgad Institute Of management (SPPU University) Aug 2022 - Jun 2024")
+st.write("**Master's**   : M.B.A (Business Analytics),                        Aug 2022 - Jun 2024
+                           Sinhgad Institute Of management (SPPU University)")
 st.write("**Bachelor's** : Bachelor Of Engineering (Mechanical), SHVPM COET Amravati Aug 2017 - Jun 2022")
 
 # --- SKILLS ---
@@ -103,7 +104,7 @@ st.write(
 - 📊 **Statistical & Analytical Models:** Python, Statistical Analysis
 - 💹 **Data Visualization:** Tableau, PowerBi , Google Studio
 - 👨🏻‍💻 **Database Management:** SQL (Complex Queries, Data Extraction)
-- 📊 **Business Analysis:** Customer Growth Analytics, Key Lead Indicators, Issue Diagnosis
+- 📊 **Business Analysis:** Customer Growth Analytics, KeyLead Indicators, Issue Diagnosis
 - 🧑🏻‍💻 **Technical Proficiency:** Dashboard Development, Reporting System Maintenance
 - ✨ **Soft Skills:** Quick Learner, Team Player, Effective Communication
 """
