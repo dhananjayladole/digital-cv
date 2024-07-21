@@ -140,9 +140,9 @@ st.write("**🌟 🧑‍💼 Workshop Manager | Aspa bandson PVT.LTD**")
 st.write("02/2021 - 01/2022")
 st.write(
     """
-- ► Utilized Excel and Power BI to analyse workshop performance metrics, identify trends, and generate reports for management review, enabling data-driven decision making and process improvemen
-- ► Directed all aspects of workshop operations, including staff supervision, resource allocation, and customer service, ensuring optimal performance and customer satisfaction
-- ► Iterations on the redesigned data model resulted in 22% better predictions. In order to find out how to boost sales, 
+- \u25BA Utilized Excel and Power BI to analyse workshop performance metrics, identify trends, and generate reports for management review, enabling data-driven decision making and process improvemen
+- \u25BA  Directed all aspects of workshop operations, including staff supervision, resource allocation, and customer service, ensuring optimal performance and customer satisfaction
+- \u25BA Iterations on the redesigned data model resulted in 22% better predictions. In order to find out how to boost sales, 
 
 """
 )
