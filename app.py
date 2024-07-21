@@ -8,7 +8,7 @@ from PIL import Image
 # --- Path setting ---
 current_dir = Path(__file__). parent if "__file__" in locals() else path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "cv.pdf"
+resume_file = current_dir / "assets" / "Resume_Dhananjay.pdf"
 profile_pic_path = current_dir / "assets" / "profile-pic.png"
 
 
@@ -70,10 +70,10 @@ with col2:
 # Button to open email client with your email pre-filled
 
 if st.button("Hire Me Now!!!"):
-        subject = "Job Opportunity"
-        mailto_link = f"mailto:{EMAIL}?subject={subject}"
-        mailto_link = f"mailto:{EMAIL}"
-        webbrowser.open(f"mailto:{EMAIL}")
+    subject = "Job Opportunity in ___"  # Subject of the email
+    mailto_link = f"mailto:{EMAIL}?subject={subject}"
+    webbrowser.open(mailto_link)
+    st.success("Opened your default email client to send an email. Thank you!")
 
 # --- SOCIAL LINKS ---
 st.write('\n')
@@ -81,25 +81,27 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
-
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
 st.subheader("🏢 Experience")
 st.write("---")
 st.write(
     """
-- ✔️ 1 Years expereince extracting actionable insights from data
-- ✔️ Strong hands on experience and knowledge in Python PowerBI and Excel
-- ✔️ Good understanding of statistical principles and their respective applications
-"""
+- ✔️ Detail-oriented Business Analyst / Data Analyst based in Pune with extensive hands-on experience in Python, SQL, Excel, and Power BI.
+- ✔️ Experienced in conducting business analysis, including customer growth analytics , Sales Analysis and identifying key lead indicators.
+- ✔️ Certified in Python, Tableau, SPSS, IoT, Power BI, and Excel, demonstrating continuous commitment to technical proficiency.
+- ✔️ Dedicated to delivering accurate insights and strategic recommendations through meticulous data analysis and visualization techniques.
+- ✔️ Skilled in developing and maintaining dashboards, ensuring accurate and actionable reporting.
 )
 
 st.write('\n')
 st.subheader("🧑🏻‍🎓 Qulifications")
 st.write(
     """
-- **Master's** :  M.B.A (Business Analytics) , At SPPU University
-- **Degree**   :  Bachelor Of Enginnering  , SGBAU University
+- **Master's** : 🎓 M.B.A (Business Analytics)                      Aug 2022 - Jun2024
+                Sinhgad Institute Of management (SPPU University)
+- **Degree**   : 🎓 Bachelor Of Enginnering                         Aug 2017 - Jun 2022
+                SHVPM COET Amravati (SGBAU University)
 """
 )
 
@@ -110,9 +112,13 @@ st.subheader("🎯 Skills")
 st.write("---")
 st.write(
     """
-- 👩‍💻 **Programming:** Python
-- 📊 **Data Visulization:** PowerBi, Tableau, MS Excel
-- 🗄️ **Databases:** MySQL
+- 📈 **Data Analysis & Reporting:** Power BI, Excel, Google Sheets
+- 📊 **Statistical & Analytical Models:** Python, Statistical Analysis
+- 👩‍💻 **Data Visualization:** Tableau, PowerBi , Google Studio
+- 🗄️ **Database Management:** SQL (Complex Queries, Data Extraction)
+- 💹 **Business Analysis:** Customer Growth Analytics, Key Lead Indicators, Issue Diagnosis
+- 👨🏻‍💻 **Technical Proficiency:** Dashboard Development, Reporting System Maintenance
+- ✨ **Soft Skills:** Quick Learner, Team Player, Effective Communication
 """
 )
 
