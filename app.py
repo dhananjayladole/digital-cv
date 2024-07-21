@@ -129,10 +129,10 @@ st.write("**🌟 🧑‍💼 Data Analyst Intern | Collaborative Analytics (CPC)
 st.write("08/2023 - 09/2023")
 st.write(
     """
-- ► Utilized Power BI, Excel, and other tools to collect, mine, analyze, and visualize data
-- ► Assisted in various data analysis projects, contributing to actionable insights and recommendations
-- ► Collaborated with team members to develop reports and dashboards for stakeholders
-- ► Redesigned data model through iterations that improved predictions by 12%
+- Utilized Power BI, Excel, and other tools to collect, mine, analyze, and visualize data
+-  Assisted in various data analysis projects, contributing to actionable insights and recommendations
+-  Collaborated with team members to develop reports and dashboards for stakeholders
+- Redesigned data model through iterations that improved predictions by 12%
 """
 )
 
@@ -140,9 +140,9 @@ st.write("**🌟 🧑‍💼 Workshop Manager | Aspa bandson PVT.LTD**")
 st.write("02/2021 - 01/2022")
 st.write(
     """
-- \u25BA Utilized Excel and Power BI to analyse workshop performance metrics, identify trends, and generate reports for management review, enabling data-driven decision making and process improvemen
-- \u25BA  Directed all aspects of workshop operations, including staff supervision, resource allocation, and customer service, ensuring optimal performance and customer satisfaction
-- \u25BA Iterations on the redesigned data model resulted in 22% better predictions. In order to find out how to boost sales, 
+- Utilized Excel and Power BI to analyse workshop performance metrics, identify trends, and generate reports for management review, enabling data-driven decision making and process improvemen
+-  Directed all aspects of workshop operations, including staff supervision, resource allocation, and customer service, ensuring optimal performance and customer satisfaction
+-  Iterations on the redesigned data model resulted in 22% better predictions. In order to find out how to boost sales, 
 
 """
 )
