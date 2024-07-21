@@ -15,9 +15,8 @@ PAGE_ICON = ":random:"
 NAME = "Dhananjay Ladole"
 DESCRIPTION = """
 MBA-Business Analyst / Data Analyst
-Pune | ✆ 9307498464 | ✉ dladole7@gmail.com
 """
-EMAIL = "dladole7@gmail.com"
+EMAIL = "dladole7@gmail.com" | ✆ 9307498464
 Hire = "Hire Me Now!!!"
 SOCIAL_MEDIA = {
     "✨LinkedIn": "https://www.linkedin.com/in/dhananjay-ladole-b59793215/",
@@ -119,10 +118,10 @@ st.write("**🌟 🧑‍💼 Data Analyst Intern | Collaborative Analytics (CPC)
 st.write("08/2023 - 09/2023")
 st.write(
     """
-- Utilized Power BI, Excel, and other tools to collect, mine, analyze, and visualize data
-- Assisted in various data analysis projects, contributing to actionable insights and recommendations
-- Collaborated with team members to develop reports and dashboards for stakeholders
-- Redesigned data model through iterations that improved predictions by 12%
+- ✔️ Utilized Power BI, Excel, and other tools to collect, mine, analyze, and visualize data
+- ✔️ Assisted in various data analysis projects, contributing to actionable insights and recommendations
+- ✔️ Collaborated with team members to develop reports and dashboards for stakeholders
+- ✔️ Redesigned data model through iterations that improved predictions by 12%
 """
 )
 
