@@ -108,7 +108,7 @@ st.subheader("🎯 Skills")
 st.write("---")
 st.write(
     """
-- 📈 **Data Analysis & Reporting:** Power BI, Excel, Google Sheets
+-  **Data Analysis & Reporting:** Power BI, Excel, Google Sheets
 - 📊 **Statistical & Analytical Models:** Python, Statistical Analysis
 - 👩‍💻 **Data Visualization:** Tableau, PowerBi , Google Studio
 - 🗄️ **Database Management:** SQL (Complex Queries, Data Extraction)
