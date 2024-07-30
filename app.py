@@ -144,13 +144,17 @@ for project, link in PROJECTS.items():
     st.write(f"{project}")
 
 # Twilio credentials
-ACCOUNT_SID = 'your_account_sid'
-AUTH_TOKEN = 'your_auth_token'
-TWILIO_PHONE_NUMBER = 'your_twilio_phone_number'
-RECIPIENT_PHONE_NUMBER = '9307498464'
+account_sid = 'ACb860deda894dcb1d736203a9b836825f'
+auth_token = '54d8f24cc88ff15154b92a42a3fcbeae'
+client = Client(account_sid, auth_token)
 
+message = client.messages.create(
+	from_='+19388391718',
+	to='+919307498464'
+)
+print(message.sid)
 # Initialize Twilio client
-client = Client(ACCOUNT_SID, AUTH_TOKEN)
+#client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
 
 # --- Send Message Box ---
