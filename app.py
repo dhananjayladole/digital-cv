@@ -2,7 +2,6 @@ from pathlib import Path
 import streamlit as st
 import webbrowser
 from PIL import Image
-from twilio.rest import Client
 
 # --- Path setting ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -18,7 +17,7 @@ DESCRIPTION = """
 MBA-Business Analyst / Data Analyst
 """
 EMAIL = "dladole7@gmail.com"
-HIRE_ME_LABEL = "Hire Me Now!!!"
+Hire = "Hire Me Now!!!"
 SOCIAL_MEDIA = {
     "✨LinkedIn": "https://www.linkedin.com/in/dhananjay-ladole-b59793215/",
     "✨GitHub": "https://github.com/dhananjayladole",
@@ -61,11 +60,11 @@ with col2:
     st.write("📩", EMAIL)
 
 # Button to open email client with your email pre-filled
-if st.button(HIRE_ME_LABEL):
+if st.button("Hire Me Now!!!"):
     subject = "Job Opportunity"
     mailto_link = f"mailto:{EMAIL}?subject={subject}"
     webbrowser.open(mailto_link)
-    st.success("Pleased click on my email to send an email. Thank you!!")
+    st.success(" Pleased click on my email to send an email. Thank you!!")
 
 # --- SOCIAL LINKS ---
 st.write('\n')
@@ -143,15 +142,6 @@ st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"{project}")
 
-# --- Twilio Configuration ---
-ACCOUNT_SID = 'ACb860deda894dcb1d736203a9b836825f'
-AUTH_TOKEN = '54d8f24cc88ff15154b92a42a3fcbeae'
-TWILIO_PHONE_NUMBER = '+19388391718'
-RECIPIENT_PHONE_NUMBER = '+919307498464'
-
-# Initialize Twilio client
-client = Client(ACCOUNT_SID, AUTH_TOKEN)
-
 # --- Send Message Box ---
 st.write("\n")
 st.subheader("Any Message / Queries")
@@ -159,15 +149,7 @@ st.subheader("Any Message / Queries")
 message = st.text_input("Type your message / queries here:")
 if st.button("Send"):
     if message:
-        try:
-            # Send text to number using Twilio
-            message_sent = client.messages.create(
-                body=message,
-                from_=TWILIO_PHONE_NUMBER,
-                to=RECIPIENT_PHONE_NUMBER
-            )
             st.success("Sent Successfully!! Thank You....😊")
-        except Exception as e:
-            st.error(f"An error occurred: {e}")
     else:
         st.warning("Please type a message before sending.")
+
