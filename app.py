@@ -2,7 +2,7 @@ from pathlib import Path
 import streamlit as st
 import webbrowser
 from PIL import Image
-from twilio.rest import Client
+
 
 # --- Path setting ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -143,15 +143,6 @@ st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"{project}")
 
-# Twilio credentials
-ACCOUNT_SID = 'your_account_sid'
-AUTH_TOKEN = 'your_auth_token'
-TWILIO_PHONE_NUMBER = 'your_twilio_phone_number'
-RECIPIENT_PHONE_NUMBER = '9307498464'
-
-# Initialize Twilio client
-client = Client(ACCOUNT_SID, AUTH_TOKEN)
-
 
 # --- Send Message Box ---
 st.write("\n")
@@ -160,16 +151,7 @@ st.subheader("Any Message / Queries")
 message = st.text_input("Type your message / queries here:")
 if st.button("Send"):
     if message:
-        try:
-            #send tsxt to no. using twilio
-            message_sent = client.message.create(
-                body=message,
-                from_=TWILIO_PHONE_NUMBER,
-                to=RECIPENT_PHONE_NUMBER
-            )
         st.success("Sent Successfully!! Thank You....😊")
-        except Exception as e:
-            st.error(f"An error occurred: {e}")
     else:
         st.warning("Please type a message before sending.")
 
