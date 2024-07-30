@@ -18,7 +18,7 @@ DESCRIPTION = """
 MBA-Business Analyst / Data Analyst
 """
 EMAIL = "dladole7@gmail.com"
-Hire = "Hire Me Now!!!"
+HIRE_ME_LABEL = "Hire Me Now!!!"
 SOCIAL_MEDIA = {
     "✨LinkedIn": "https://www.linkedin.com/in/dhananjay-ladole-b59793215/",
     "✨GitHub": "https://github.com/dhananjayladole",
@@ -61,11 +61,11 @@ with col2:
     st.write("📩", EMAIL)
 
 # Button to open email client with your email pre-filled
-if st.button("Hire Me Now!!!"):
+if st.button(HIRE_ME_LABEL):
     subject = "Job Opportunity"
     mailto_link = f"mailto:{EMAIL}?subject={subject}"
     webbrowser.open(mailto_link)
-    st.success(" Pleased click on my email to send an email. Thank you!!")
+    st.success("Pleased click on my email to send an email. Thank you!!")
 
 # --- SOCIAL LINKS ---
 st.write('\n')
@@ -143,19 +143,14 @@ st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"{project}")
 
-# Twilio credentials
-account_sid = 'ACb860deda894dcb1d736203a9b836825f'
-auth_token = '54d8f24cc88ff15154b92a42a3fcbeae'
-client = Client(account_sid, auth_token)
+# --- Twilio Configuration ---
+ACCOUNT_SID = 'ACb860deda894dcb1d736203a9b836825f'
+AUTH_TOKEN = '54d8f24cc88ff15154b92a42a3fcbeae'
+TWILIO_PHONE_NUMBER = '+19388391718'
+RECIPIENT_PHONE_NUMBER = '+919307498464'
 
-message = client.messages.create(
-	from_='+19388391718',
-	to='+919307498464'
-)
-print(message.sid)
 # Initialize Twilio client
-#client = Client(ACCOUNT_SID, AUTH_TOKEN)
-
+client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
 # --- Send Message Box ---
 st.write("\n")
@@ -165,15 +160,14 @@ message = st.text_input("Type your message / queries here:")
 if st.button("Send"):
     if message:
         try:
-            #send tsxt to no. using twilio
-            message_sent = client.message.create(
+            # Send text to number using Twilio
+            message_sent = client.messages.create(
                 body=message,
                 from_=TWILIO_PHONE_NUMBER,
-                to=RECIPENT_PHONE_NUMBER
+                to=RECIPIENT_PHONE_NUMBER
             )
             st.success("Sent Successfully!! Thank You....😊")
         except Exception as e:
             st.error(f"An error occurred: {e}")
     else:
         st.warning("Please type a message before sending.")
-
