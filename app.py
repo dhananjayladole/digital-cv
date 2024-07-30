@@ -98,9 +98,9 @@ st.subheader("🎯 Skills")
 st.write("---")
 st.write(
     """
-- 📈 **Data Analysis & Reporting:** Power BI, SQL, Excel, Google Sheets
+- 📈 **Data Analysis & Reporting:** Power BI, Excel, Google Sheets
 - 📊 **Statistical & Analytical Models:** Python, Statistical Analysis
-- 💹 **Data Visualization:** Tableau, PowerBi , Google Studio, PPT
+- 💹 **Data Visualization:** Tableau, PowerBi , Google Studio
 - 👨🏻‍💻 **Database Management:** SQL (Complex Queries, Data Extraction)
 - 📊 **Business Analysis:** Customer Growth Analytics, KeyLead Indicators, Issue Diagnosis
 - 🧑🏻‍💻 **Technical Proficiency:** Dashboard Development, Reporting System Maintenance
@@ -149,7 +149,6 @@ st.subheader("Any Message / Queries")
 message = st.text_input("Type your message / queries here:")
 if st.button("Send"):
     if message:
-            st.success("Sent Successfully!! Thank You....😊")
+        st.success("Sent Successfully!! Thank You....😊")
     else:
         st.warning("Please type a message before sending.")
-
