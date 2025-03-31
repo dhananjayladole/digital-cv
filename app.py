@@ -102,6 +102,7 @@ st.write(
 - 📊 **Statistical & Analytical Models:** Python, Statistical Analysis
 - 💹 **Data Visualization:** Tableau, PowerBi , Google Studio
 - 👨🏻‍💻 **Database Management:** SQL (Complex Queries, Data Extraction)
+- 🔧 **ServiceNow & IT Operations:** ITSM, ITOM, Infrastructure Operations, Application Development & Management  
 - 📊 **Business Analysis:** Customer Growth Analytics, KeyLead Indicators, Issue Diagnosis
 - 🧑🏻‍💻 **Technical Proficiency:** Dashboard Development, Reporting System Maintenance
 - ✨ **Soft Skills:** Quick Learner, Team Player, Effective Communication
@@ -113,7 +114,23 @@ st.write('\n')
 st.subheader("💼 Work History")
 st.write("---")
 
-# --- Internship
+# --- Professional
+st.write("**🌟 🧑‍💼 Data Analyst/ ServiceNow Admin | Technozest PVT.LTD**")
+st.write("05/2025 - Present")
+st.write(
+    """
+- ✔️ Utilized Excel and Power BI to analyze workshop performance metrics, identify trends, and generate reports for management review, enabling data-driven decision making and process improvement
+- ✔️ Transitioned from Data Analyst to ServiceNow Admin role after 3 months.
+- ✔️ Optimized SQL queries, improving database performance by 40%.
+- ✔️ Automated monthly reports using Power BI, reducing manual effort by 50%.
+- ✔️ Worked on ServiceNow ,ITSM for incident and change management.
+- ✔️ Developed ServiceNow applications, streamlining IT operations.
+- ✔️ Managed ITIL & Infrastructure Operations, ensuring system efficiency.
+
+"""
+)
+
+#---Internship
 st.write("**🌟 🧑‍💼 Data Analyst Intern | Collaborative Analytics (CPC)**")
 st.write("08/2023 - 09/2023")
 st.write(
@@ -122,16 +139,6 @@ st.write(
 - ✔️ Assisted in various data analysis projects, contributing to actionable insights and recommendations
 - ✔️ Collaborated with team members to develop reports and dashboards for stakeholders
 - ✔️ Redesigned data model through iterations that improved predictions by 12%
-"""
-)
-
-st.write("**🌟 🧑‍💼 Workshop Manager | Aspa bandson PVT.LTD**")
-st.write("02/2021 - 01/2022")
-st.write(
-    """
-- ✔️ Utilized Excel and Power BI to analyze workshop performance metrics, identify trends, and generate reports for management review, enabling data-driven decision making and process improvement
-- ✔️ Directed all aspects of workshop operations, including staff supervision, resource allocation, and customer service, ensuring optimal performance and customer satisfaction
-- ✔️ Iterations on the redesigned data model resulted in 22% better predictions.
 """
 )
 
