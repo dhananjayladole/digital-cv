@@ -77,11 +77,11 @@ st.subheader("🏢 Experience")
 st.write("---")
 st.write(
     """
-- ✔️ **ServiceNow Developer with 2.7 years of experience** developing, customizing, and supporting ITSM modules (Incident, Problem, Change, Request)
-- ✔️ Proficient in **Glide scripting (client/server), Business Rules, Client Scripts, UI/Data Policies, Scheduled Jobs, and ACLs**
-- ✔️ Experienced in **custom application development, catalog item design, workflow/Flow Designer automations, and update‑set management**
-- ✔️ **MBA in Business Analytics** with hands‑on skills in **SQL, Power BI, and Excel** for data analysis and reporting
-- ✔️ Strong analytical thinking, attention to detail, and a growth mindset; collaborates effectively with cross‑functional teams to deliver ITIL‑aligned solutions
+- ✔️ ** ServiceNow Developer with 2.7 years of experience** developing, customizing, and supporting ITSM modules (Incident, Problem, Change, Request)
+- ✔️  Proficient in **Glide scripting (client/server), Business Rules, Client Scripts, UI/Data Policies, Scheduled Jobs, and ACLs**
+- ✔️  Experienced in **custom application development, catalog item design, workflow/Flow Designer automations, and update‑set management**
+- ✔️  ** MBA in Business Analytics** with hands‑on skills in **SQL, Power BI, and Excel** for data analysis and reporting
+- ✔️  Strong analytical thinking, attention to detail, and a growth mindset; collaborates effectively with cross‑functional teams to deliver ITIL‑aligned solutions
 """
 )
 
@@ -89,8 +89,8 @@ st.write(
 st.write("\n")
 st.subheader("🧑🏻‍🎓 Qualifications")
 st.write("---")
-st.write("**Master of Business Administration (MBA) – Business Analytics** | Sinhgad Institute of Management, Pune ............................................................ *Aug 2022 – Jun 2024*  \nCGPA: 6.56")
-st.write("**Bachelor of Engineering (BE) – Mechanical Engineering** | SHVPM COET, Amravati ............................................................................... *Aug 2017 – Jun 2022*  \nCGPA: 8.71")
+st.write("**Master of Business Administration (MBA) – Business Analytics** | Sinhgad Institute of Management, Pune              *Aug 2022 – Jun 2024*  \nCGPA: 6.56")
+st.write("**Bachelor of Engineering (BE) – Mechanical Engineering** | SHVPM COET, Amravati                                      *Aug 2017 – Jun 2022*  \nCGPA: 8.71")
 
 # --- SKILLS ---
 st.write("\n")
@@ -98,11 +98,11 @@ st.subheader("🎯 Skills")
 st.write("---")
 st.write(
     """
-- 🛠️ **ServiceNow Platform:** ITSM (Incident, Problem, Change, Request), Service Catalog, Custom Applications, Flow Designer, Update Sets, ACLs, CMDB (basic)
-- 💻 **Scripting & Automation:** GlideScript (client/server), Business Rules, Client Scripts, Script Includes, Scheduled Jobs, REST API (basic)
-- 📊 **Data & Analytics:** SQL, Power BI, Excel (advanced), Data Visualization, Dashboard Development
-- 📈 **Reporting & Insights:** Performance Analytics, KPI Tracking, SLA Management
-- 🤝 **Soft Skills:** Analytical Thinking, Attention to Detail, Time Management, Team Collaboration, Effective Communication
+- 🛠️  ** ServiceNow Platform:** ITSM (Incident, Problem, Change, Request), Service Catalog, Custom Applications, Flow Designer, Update Sets, ACLs, CMDB (basic)
+- 💻  ** Scripting & Automation:** GlideScript (client/server), Business Rules, Client Scripts, Script Includes, Scheduled Jobs, REST API (basic)
+- 📊  ** Data & Analytics:** SQL, Power BI, Excel (advanced), Data Visualization, Dashboard Development
+- 📈  ** Reporting & Insights:** Performance Analytics, KPI Tracking, SLA Management
+- 🤝  ** Soft Skills:** Analytical Thinking, Attention to Detail, Time Management, Team Collaboration, Effective Communication
 """
 )
 
@@ -113,7 +113,7 @@ st.write("---")
 
 # --- Professional Experience
 st.write("**🌟 🧑‍💼 ServiceNow Developer | Technozest Technologies Pvt. Ltd., Pune**")
-st.write("Dec 2022 – Present | Full‑time | On‑site")
+st.write("Dec 2022 – Present")
 st.write(
     """
 - ✔️ Developed and customized ITSM modules (Incident, Problem, Change, Request) with catalog items, workflows, and scripted automations
