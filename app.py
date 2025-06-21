@@ -2,7 +2,6 @@ from pathlib import Path
 import streamlit as st
 import webbrowser
 from PIL import Image
-import urllib.parse
 
 # --- Path setting ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -18,13 +17,13 @@ DESCRIPTION = """
 ServiceNow Developer
 """
 EMAIL = "dladole7@gmail.com"
-
+Hire = "Hire Me Now!!!"
 SOCIAL_MEDIA = {
     "✨LinkedIn": "https://www.linkedin.com/in/dhananjay-ladole-b59793215/",
     "✨GitHub": "https://github.com/dhananjayladole",
 }
 
-# --- PROJECTS ---
+# --- UPDATED PROJECTS ---
 PROJECTS = {
     "🏆 ServiceNow Incident Automation – Scripted SLA escalations to cut resolution time by 20%": "",
     "🏆 ServiceNow Catalog Transformation – Migrated 30+ legacy forms to modern catalog items": "",
@@ -60,19 +59,11 @@ with col2:
     )
     st.write("📩", EMAIL)
 
-# --- HIRE ME BUTTON WITH MAILTO LINK ---
 if st.button("Hire Me Now!!!"):
-    subject = "Exciting Opportunity for ServiceNow Developer Role"
-    body = (
-        "Hi Dhananjay,%0D%0A%0D%0A"
-        "I came across your profile and was impressed with your experience in ServiceNow and Data Analytics. "
-        "I'd love to connect regarding a relevant opportunity.%0D%0A%0D%0A"
-        "Looking forward to hearing from you.%0D%0A%0D%0A"
-        "Best Regards,%0D%0A[Your Name]"
-    )
-    mailto_link = f"mailto:{EMAIL}?subject={urllib.parse.quote(subject)}&body={body}"
+    subject = "Job Opportunity"
+    mailto_link = f"mailto:{EMAIL}?subject={subject}"
     webbrowser.open(mailto_link)
-    st.success("Redirecting to your email client... 📬")
+    st.success(" Pleased click on my email to send an email. Thank you!!")
 
 # --- SOCIAL LINKS ---
 st.write("\n")
@@ -108,7 +99,7 @@ st.write(
 """
 )
 
-# --- WORK EXPERIENCE ---
+# --- WORK HISTORY ---
 st.write("\n")
 st.subheader("🏢 Work Experience")
 st.write("---")
@@ -136,21 +127,21 @@ st.write(
 """
 )
 
-# --- EDUCATION ---
+# --- QUALIFICATIONS ---
 st.write("\n")
 st.subheader("🎓 Education")
 st.write("---")
 
 col1, col2 = st.columns([3, 1])
 with col1:
-    st.write("**Master of Business Administration (MBA), Business Analytics – Sinhgad Institute of Management, Pune**")
+    st.write("**Master of Business Administration (MBA), Business Analytics** – Sinhgad Institute of Management, Pune")
 with col2:
     st.write("Aug 2022 – Jun 2024")
 st.write("CGPA: 6.56")
 
 col1, col2 = st.columns([3, 1])
 with col1:
-    st.write("**Bachelor of Engineering (BE), Mechanical Engineering – SHVPM COET, Amravati**")
+    st.write("**Bachelor of Engineering (BE), Mechanical Engineering** – SHVPM COET, Amravati")
 with col2:
     st.write("Aug 2017 – Jun 2022")
 st.write("CGPA: 8.71")
@@ -159,10 +150,10 @@ st.write("CGPA: 8.71")
 st.write("\n")
 st.subheader("🚀 Projects")
 st.write("---")
-for project in PROJECTS:
-    st.write(project)
+for project, link in PROJECTS.items():
+    st.write(f"{project}")
 
-# --- MESSAGE BOX ---
+# --- Send Message Box ---
 st.write("\n")
 st.subheader("Any Message / Queries")
 message = st.text_input("Type your message / queries here:")
