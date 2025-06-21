@@ -7,7 +7,7 @@ from PIL import Image
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "DhananjayLadole_ServiceNow_Developer_Resume.pdf"
-profile_pic_path = current_dir / "assets" / "profile-pic.jpeg"
+profile_pic_path = current_dir / "assets" / "profile-pic.png"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Portfolio | Dhananjay Ladole"
