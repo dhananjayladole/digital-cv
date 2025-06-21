@@ -60,10 +60,16 @@ with col2:
     st.write("📩", EMAIL)
 
 if st.button("Hire Me Now!!!"):
-    subject = "Job Opportunity"
-    mailto_link = f"mailto:{EMAIL}?subject={subject}"
+    subject = "Exciting Opportunity for ServiceNow Developer Role"
+    body = "Hi Dhananjay,
+
+I came across your profile and was impressed with your experience in ServiceNow and data analytics. Let's connect regarding an opportunity!
+
+Best Regards,
+[Your Name]"
+    mailto_link = f"mailto:{EMAIL}?subject={subject}&body={body}"
     webbrowser.open(mailto_link)
-    st.success(" Pleased click on my email to send an email. Thank you!!")
+    st.success("Redirecting to your email client... 📬")
 
 # --- SOCIAL LINKS ---
 st.write("\n")
