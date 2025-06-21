@@ -49,8 +49,8 @@ with col1:
     st.image(profile_pic, caption="", width=200)
 
 with col2:
-    st.title(NAME)
-    st.write(DESCRIPTION)
+    st.markdown(f"<h1 style='text-align: center;'>{NAME}</h1>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; color: gray;'>ServiceNow Developer</h3>", unsafe_allow_html=True)
     st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
