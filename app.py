@@ -71,75 +71,84 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
-# --- EXPERIENCE & QUALIFICATIONS ---
+# --- PROFESSIONAL SUMMARY ---
 st.write("\n")
-st.subheader("🏢 Experience")
+st.subheader("💼 Professional Summary")
 st.write("---")
 st.write(
     """
-- ✔️ ** ServiceNow Developer with 2.7 years of experience** developing, customizing, and supporting ITSM modules (Incident, Problem, Change, Request)
-- ✔️  Proficient in **Glide scripting (client/server), Business Rules, Client Scripts, UI/Data Policies, Scheduled Jobs, and ACLs**
-- ✔️  Experienced in **custom application development, catalog item design, workflow/Flow Designer automations, and update‑set management**
-- ✔️  ** MBA in Business Analytics** with hands‑on skills in **SQL, Power BI, and Excel** for data analysis and reporting
-- ✔️  Strong analytical thinking, attention to detail, and a growth mindset; collaborates effectively with cross‑functional teams to deliver ITIL‑aligned solutions
+- ✔️ ServiceNow Developer with 2.7 years of experience designing, developing, and customizing ITSM modules.
+- ✔️ Proficient in Incident, Problem, Change, Request Management, Service Catalog, and Flow Designer.
+- ✔️ Skilled in Glide scripting (Client/Server), Business Rules, UI Policies, Script Includes, and ACLs.
+- ✔️ MBA in Business Analytics with strong data analysis skills using SQL, Power BI, and Excel.
+- ✔️ Strong team player with effective communication and quick learning ability.
 """
 )
 
-# --- QUALIFICATIONS ---
-st.write("\n")
-st.subheader("🧑🏻‍🎓 Qualifications")
-st.write("---")
-st.write("**Master of Business Administration (MBA) – Business Analytics** | Sinhgad Institute of Management, Pune              *Aug 2022 – Jun 2024*  \nCGPA: 6.56")
-st.write("**Bachelor of Engineering (BE) – Mechanical Engineering** | SHVPM COET, Amravati                                      *Aug 2017 – Jun 2022*  \nCGPA: 8.71")
-
 # --- SKILLS ---
 st.write("\n")
-st.subheader("🎯 Skills")
+st.subheader("🧠 Skills")
 st.write("---")
 st.write(
     """
-- 🛠️  ** ServiceNow Platform:** ITSM (Incident, Problem, Change, Request), Service Catalog, Custom Applications, Flow Designer, Update Sets, ACLs, CMDB (basic)
-- 💻  ** Scripting & Automation:** GlideScript (client/server), Business Rules, Client Scripts, Script Includes, Scheduled Jobs, REST API (basic)
-- 📊  ** Data & Analytics:** SQL, Power BI, Excel (advanced), Data Visualization, Dashboard Development
-- 📈  ** Reporting & Insights:** Performance Analytics, KPI Tracking, SLA Management
-- 🤝  ** Soft Skills:** Analytical Thinking, Attention to Detail, Time Management, Team Collaboration, Effective Communication
+- 🛠️ ServiceNow: ITSM, Service Catalog, Custom Apps, CMDB, ACLs, Flow Designer
+- 💻 Scripting: GlideScript, Script Includes, Business Rules, Client Scripts, Scheduled Jobs
+- 📊 Data Tools: SQL, Power BI, Excel, Dashboard Building, Data Visualization
+- 🔍 Analytics: SLA Management, KPI Reporting, Customer Insights
+- 🤝 Soft Skills: Communication, Collaboration, Adaptability, Problem Solving
 """
 )
 
 # --- WORK HISTORY ---
 st.write("\n")
-st.subheader("💼 Work History")
+st.subheader("🏢 Work Experience")
 st.write("---")
 
-# --- Professional Experience
-st.write("**🌟 🧑‍💼 ServiceNow Developer | Technozest Technologies Pvt. Ltd., Pune**")
-st.write("Dec 2022 – Present")
+st.write("**ServiceNow Developer | Technozest Technologies Pvt. Ltd. – Pune**")
+st.write("Dec 2022 – Present")
 st.write(
     """
-- ✔️ Developed and customized ITSM modules (Incident, Problem, Change, Request) with catalog items, workflows, and scripted automations
-- ✔️ Configured **Access Control Rules (ACLs)** to secure tables and fields based on roles and conditions
-- ✔️ Built and maintained custom ServiceNow applications to streamline internal processes
-- ✔️ Automated tasks using Glide scripting, Script Includes, Scheduled Jobs, and Flow Designer, cutting manual effort by 30%
-- ✔️ Managed Update Sets across dev, test, and prod; supported platform upgrades and patching
-- ✔️ Collaborated with stakeholders to gather requirements, conduct UAT, and deploy enhancements
-- ✔️ Implemented SLA definitions and notification triggers; reduced incident resolution time via scripted escalations
+- ✔️ Developed and customized ITSM modules (Incident, Problem, Change, Request Management).
+- ✔️ Created catalog items, client/server scripts, business rules, UI policies, and Flow Designer flows.
+- ✔️ Designed and deployed custom ServiceNow applications with user-specific ACLs.
+- ✔️ Managed update sets, version control, and platform migrations.
+- ✔️ Implemented SLA conditions, email notifications, and workflow automation.
+- ✔️ Coordinated with cross-functional teams for UAT, go-lives, and post-deployment support.
 """
 )
 
-# --- Internship
-st.write("**🌟 🧑‍💼 Data Analyst Intern | Collaborative Analytics (CPC), Remote**")
-st.write("Aug 2023 – Sep 2023 | Part‑time Internship")
+st.write("**Data Analyst Intern | Collaborative Analytics (CPC) – Remote**")
+st.write("Aug 2023 – Sep 2023")
 st.write(
     """
-- ✔️ Queried and prepared large datasets using **SQL** for business analytics objectives
-- ✔️ Built interactive dashboards in **Power BI** to visualize public perception and customer churn trends
-- ✔️ Presented data‑driven insights and recommendations to academic stakeholders
+- ✔️ Used SQL for data extraction and preparation.
+- ✔️ Created Power BI dashboards for customer churn and public opinion analysis.
+- ✔️ Applied ETL processes and performance metrics for analytical reporting.
 """
 )
 
-# --- Projects & Accomplishments ---
+# --- QUALIFICATIONS ---
 st.write("\n")
-st.subheader("🚀 Projects & Accomplishments")
+st.subheader("🎓 Education")
+st.write("---")
+
+col1, col2 = st.columns([3, 1])
+with col1:
+    st.write("**Master of Business Administration (MBA), Business Analytics** – Sinhgad Institute of Management, Pune")
+with col2:
+    st.write("Aug 2022 – Jun 2024")
+st.write("CGPA: 6.56")
+
+col1, col2 = st.columns([3, 1])
+with col1:
+    st.write("**Bachelor of Engineering (BE), Mechanical Engineering** – SHVPM COET, Amravati")
+with col2:
+    st.write("Aug 2017 – Jun 2022")
+st.write("CGPA: 8.71")
+
+# --- PROJECTS ---
+st.write("\n")
+st.subheader("🚀 Projects")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"{project}")
@@ -147,7 +156,6 @@ for project, link in PROJECTS.items():
 # --- Send Message Box ---
 st.write("\n")
 st.subheader("Any Message / Queries")
-
 message = st.text_input("Type your message / queries here:")
 if st.button("Send"):
     if message:
